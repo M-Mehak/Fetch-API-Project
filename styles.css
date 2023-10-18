@@ -35,16 +35,16 @@ h1 {
 
 input[type="text"] {
     padding: 10px;
-    border: 1px solid #333; 
+    border: 1px solid #a9a9a9; 
     border-radius: 5px;
-    background-color: #222;
+    background-color: #e3e3e3;
     color: #fff;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #AA0000; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -52,8 +52,9 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #880000; 
 }
+
 
 /* ============= Media query ========== */
 @media (max-width: 660px) {
