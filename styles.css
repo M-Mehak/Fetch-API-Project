@@ -1,14 +1,8 @@
-html {
-    background-image: url('Art.jpeg'); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: transparent; 
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(172, 169, 169, 0.896), #ec7676) ;
     margin: 0;
     padding: 0;
     color: #fff; 
@@ -16,16 +10,16 @@ body {
 
 h1 {
     margin: 20px 0;
-    color: #fff; 
+    color: #000000; 
 }
 
 .weather {
-    background-color: #111; 
-    border: 1px solid #222;
+    background-color: #555; 
     border-radius: 5px;
     padding: 20px;
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
+    font-size: 20px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
@@ -38,7 +32,7 @@ input[type="text"] {
     border: 1px solid #a9a9a9; 
     border-radius: 5px;
     background-color: #e3e3e3;
-    color: #fff;
+    color: #494949;
 }
 
 button {
